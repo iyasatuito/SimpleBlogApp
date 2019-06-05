@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.myblogapp.blogapp.Activities.BlogListActivity">
+
+    <item
+        android:id="@+id/action_view"
+        android:icon="@drawable/view"
+        android:title="View"
+        app:showAsAction="never|withText"/>
+
+</menu>

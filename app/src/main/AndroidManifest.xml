@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myblogapp.blogapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".context.BlogAppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activities.BlogListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.AddBlogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.EditBlogEntryActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.BlogActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.UserListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ViewBlogActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Activities.ViewBlogListActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

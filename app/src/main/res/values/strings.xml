@@ -1,0 +1,52 @@
+<resources>
+  <string name="app_name">BlogApp</string>
+  <string name="action_settings">Settings</string>
+  <string name="vertical_ellipsis">&#8942;</string>
+
+  <string-array name="nav_item_activity_titles">
+    <item>Search Users</item>
+    <item>Log out</item>
+  </string-array>
+
+  <!-- PERMISSIONS -->
+
+  <string name="message_permissions_open_settings">Open Settings, then tap Permissions and turn on %s.</string>
+  <string name="action_permissions_open_settings">Open Settings</string>
+  <string name="label_permissions_open_settings_separator">, </string>
+  <string name="label_permissions_open_settings_and">&amp; </string>
+
+  <string name="label_default_permissions_view_title">Requires permission</string>
+  <string name="label_default_permissions_view_body">Turn on additional permissions to continue.</string>
+  <string name="label_default_permissions_view_button">@string/label_permissions_view_turn_on</string>
+
+  <string name="label_permissions_view_turn_on">Turn on</string>
+
+  <!-- PERMISSIONS: OVERRIDEABLE LABELS -->
+  <!--
+      This section contains pre-defined labels for some of the dangerous permission groups.
+      Implementing apps are free to override and customize these on their own resource files.
+  -->
+
+  <string name="label_permission_camera_title">"Use App&apos;s Camera"</string>
+  <string name="label_permission_camera_description">"Allow this app to use the camera."</string>
+  <string name="label_permission_camera_button">@string/label_permissions_view_turn_on</string>
+
+  <string name="label_permission_contacts_title">"Use Contacts Data"</string>
+  <string name="label_permission_contacts_description">"Allow this app to access user&apos;s contacts data."</string>
+  <string name="label_permission_contacts_button">@string/label_permissions_view_turn_on</string>
+
+  <string name="label_permission_location_title">"Use Device Location"</string>
+  <string name="label_permission_location_description">"Allow this app to know your location."</string>
+  <string name="label_permission_location_button">@string/label_permissions_view_turn_on</string>
+
+  <string name="label_permission_phone_title">"Phone Calls"</string>
+  <string name="label_permission_phone_description">"Allow app to make and manage phone calls."</string>
+  <string name="label_permission_phone_button">@string/label_permissions_view_turn_on</string>
+
+  <string name="label_permission_storage_title">"Use Media Storage"</string>
+  <string name="label_permission_storage_description">"Allow app to access photos, media, and files on your device."</string>
+  <string name="label_permission_storage_button">@string/label_permissions_view_turn_on </string>
+
+
+
+</resources>

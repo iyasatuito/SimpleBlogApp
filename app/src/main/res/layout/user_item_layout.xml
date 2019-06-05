@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="50dp"
+        android:src="@drawable/img_profile"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="14dp"
+        android:layout_toRightOf="@+id/profile"
+        android:layout_alignParentTop="true"
+        android:gravity="start"
+        />
+
+    <Button
+        android:id="@+id/viewBlogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Blogs"
+        android:layout_below="@+id/userName"
+        android:layout_toEndOf="@+id/profile" />
+
+    <Button
+        android:id="@+id/blockBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block User"
+        android:layout_below="@+id/userName"
+        android:layout_toEndOf="@+id/viewBlogBtn"
+        android:layout_marginStart="21dp" />
+
+</RelativeLayout>
